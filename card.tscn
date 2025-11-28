@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1xuuuy25h8yy"]
+
+[ext_resource type="Script" uid="uid://c5inf1tdluf5t" path="res://carta.gd" id="1_kikvd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nxf5b"]
+font_color = Color(0, 0, 0, 1)
+
+[node name="Carta" type="ColorRect"]
+offset_right = 100.0
+offset_bottom = 140.0
+script = ExtResource("1_kikvd")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "A Copas"
+label_settings = SubResource("LabelSettings_nxf5b")
